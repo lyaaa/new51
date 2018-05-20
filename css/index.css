@@ -1,0 +1,416 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul,ol,li,dd,dt{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+html{
+	font-size: 100px;
+}
+body{
+	background: #f0e0c3;
+	font-family: "Microsoft YaHei";
+}
+/*头部开始*/
+#header{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	height: 0.8rem;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+}
+#header img{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	left: 0.32rem;
+	top: 0.24rem;
+}
+#header h3{
+	font-size: 0.34rem;
+	color: #333;
+	line-height: 0.88rem;
+}
+/*头部结束*/
+/*内容区开始*/
+#container{
+	width: 100%;
+	height: auto;
+	padding-top: 0.8rem;
+}
+/*banner部分*/
+#container #banner{
+	width: 100%;
+	height: 4.64rem;
+}
+#container #banner img{
+	width: 100%;
+	height: 100%;
+}
+#container #line{
+	height: 0.06rem;
+	width: 100%;
+	margin-top: 0.03rem;
+	background: #e47246;
+}
+/*内容部分*/
+#container #content{
+	width: 100%;
+	height: auto;
+}
+/*一重礼*/
+#container #content #one_gift{
+	width: 100%;
+	height: auto;
+
+}
+#container #content #one_gift .title{
+	height: 1.2rem;
+	width: 100%;
+}
+#container #content #one_gift .title img{
+	margin-top: 0.36rem;
+	margin-left: 5%;
+	width: 90%;
+}
+#container #content #one_gift .interest_rate{
+	width: 90%;
+	height: 2.2rem;
+	margin-left: 5%;
+	background: url(../images/1.jpg);
+	background-size: 100% 100%;
+}
+/* #container #content #one_gift .interest_rate .ir_det{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#container #content #one_gift .interest_rate .ir_det .one_p{
+	font-size: 0.6rem;
+	color: #c03928;
+}
+#container #content #one_gift .interest_rate .ir_det .one_p span{
+	font-size: 0.3rem;
+}
+#container #content #one_gift .interest_rate .ir_det .two_p{
+	background: #c03928;
+	color: #eed4a4;
+	font-size: 0.22rem;
+	padding: 0.06rem 0.14rem;
+	border-radius: 0.1rem;
+} */
+
+
+/* 二重礼*/
+#container #content #two_gift{
+	margin-top: 0.4rem;
+	width: 100%;
+	background: url(../images/active_bg.png) no-repeat;
+	/*background-size: cover;*/
+	background-size:100% 100%; 
+	padding-bottom: 0.80rem;
+}
+
+#container #content #two_gift .title{
+	height: auto;
+	width: 100%;
+}
+#container #content #two_gift .title img{
+	margin-top: 0.76rem;
+	margin-left: 5%;
+	width: 90%;
+}
+#container #content #two_gift .text{
+	margin-top: 0.24rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	line-height: 0.36rem;
+	font-size: 0.28rem;
+	color: #e7dbc7;
+}
+
+/* 二重礼内容*/
+#container #content #redEnve{
+	padding: 0 0.3rem;
+}
+#container #content #redEnve .redEnve_top{
+	margin-top: 0.4rem;
+	height: 2.08rem;
+}
+
+
+/*左边加息券*/
+#container #content #redEnve .redEnve_top .addl{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: url(../images/active_2.png) no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	padding: 0.18rem 0; 
+}
+#container #content #redEnve .redEnve_top .addl .ad_left{
+	width: 0.9rem;
+	border-right: 0.01rem #c3392a dashed;
+}
+#container #content #redEnve .redEnve_top .addl .ad_left p{
+	width: 0.46rem;
+	height: 96%;
+	font-size: 0.3rem;
+	line-height: 0.5rem;
+	padding: 0.1rem 0;
+	margin-left: 0.26rem;
+	color: #f1ceb3;
+	background: #d96a27;
+	text-align: center;
+	border-radius: 0.1rem;
+}
+#container #content #redEnve .redEnve_top .addl .ad_right{
+	flex: 1;
+}
+#container #content #redEnve .redEnve_top .addl .ad_right p{
+	text-align: center;
+}
+#container #content #redEnve .redEnve_top .addl .ad_right .num{
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+	width: 100%;
+	padding-right: 0.35rem; 
+}
+#container #content #redEnve .redEnve_top .addl .ad_right .num img{
+	display: block;
+	width: 100%;
+}
+#container #content #redEnve .redEnve_top .addl .ad_right .money{
+	font-size: 0.24rem;
+	color: #49180e;
+}
+#container #content #redEnve .redEnve_top .addl .ad_right .day{
+	font-size: 0.24rem;
+	color: #49180e;
+}
+
+
+/*右边红包*/
+#container #content #redEnve .redEnve_top .rede{
+	width: 50%;
+	height: 100%;
+	float: right;
+	background: url(../images/active_2.png) no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	padding: 0.18rem 0; 
+}
+#container #content #redEnve .redEnve_top .rede .ad_left{
+	width: 0.9rem;
+	border-right: 0.01rem #c3392a dashed;
+}
+#container #content #redEnve .redEnve_top .rede .ad_left p{
+	width: 0.46rem;
+	font-size: 0.3rem;
+	line-height: 0.6rem;
+	height: 96%;
+	padding: 0.2rem 0;
+	margin-left: 0.26rem;
+	background: #c43a29;
+	color: #f1ceb3;
+	text-align: center;
+	border-radius: 0.1rem;
+}
+#container #content #redEnve .redEnve_top .rede .ad_right{
+	flex: 1;
+}
+#container #content #redEnve .redEnve_top .rede .ad_right p{
+	text-align: center;
+}
+#container #content #redEnve .redEnve_top .rede .ad_right .num{
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+	width: 100%;
+	padding-right: 0.35rem; 
+}
+#container #content #redEnve .redEnve_top .rede .ad_right .num img{
+	display: block;
+	width: 100%;
+}
+#container #content #redEnve .redEnve_top .rede .ad_right .money{
+	font-size: 0.24rem;
+	color: #49180e;
+}
+#container #content #redEnve .redEnve_top .rede .ad_right .day{
+	font-size: 0.24rem;
+	color: #49180e;
+}
+
+/*下 红包区*/
+#container #content #redEnve .redEnve_bottom{
+	margin-top: 0.2rem;
+	padding:0 0.1rem;
+	height: 3.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+#container #content #redEnve .redEnve_bottom .redpack{
+	height: 3.20rem;
+	width: 2.1rem;
+	background: url(../images/active_1.png) no-repeat;
+	background-size: 100% 100%;
+	padding:  0 0.1rem;
+}
+#container #content #redEnve .redEnve_bottom .redpack .pac_top{
+	height: 0.9rem;
+	border-bottom: 0.01rem #c3392a dashed;
+	padding-top: 0.24rem;
+}
+#container #content #redEnve .redEnve_bottom .redpack .pac_top p{
+	height: 0.46rem;
+	font-size: 0.3rem;
+	line-height: 0.46rem;
+	background: #c43a29;
+	color: #f1ceb3;
+	letter-spacing: 0.2rem;
+	padding-left: 0.14rem;
+	text-align: center;
+	border-radius: 0.1rem;
+}
+#container #content #redEnve .redEnve_bottom .redpack .pac_bottom p{
+	text-align: center;
+}
+#container #content #redEnve .redEnve_bottom .redpack .pac_bottom .num{
+	margin-left: 0.14rem;
+	margin-top: 0.3rem;
+	margin-bottom: 0.2rem;
+	width: 100%;
+	padding-right: 0.2rem; 
+}
+#container #content #redEnve .redEnve_bottom .redpack .pac_bottom .num img{
+	display: block;
+	width: 100%;
+}
+#container #content #redEnve .redEnve_bottom .redpack .pac_bottom .money{
+	margin-top: 0.1rem;
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+	color: #49180e;
+}
+#container #content #redEnve .redEnve_bottom .redpack .pac_bottom .day{
+	font-size: 0.24rem;
+	color: #49180e;
+	line-height: 0.32rem;
+}
+
+
+/*  活动规则*/
+#container #rule{
+	margin-top: 0.1rem;
+	padding: 0 0.3rem;
+}
+#container #rule .img{
+	display: block;
+	height: auto;
+	width: 100%;
+	/*height: 0.6rem;*/
+}
+#container #rule #rule_t{
+	margin-top: 0.3rem;
+	padding: 0 0.3rem; 
+}
+#container #rule #rule_t p{
+	font-size: 0.28rem;
+	color: #333;
+	line-height: 0.4rem;
+}
+#container #rule #rule_t p img{
+	display: inline-block;
+	width: 0.16rem;
+	height: 0.16rem;
+	margin-right: 0.08rem;
+	line-height: 0.4rem;
+}
+#container #rule #rule_t h4{
+	font-size: 0.28rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.1rem;
+}
+
+
+/*bottom*/
+#bottom{
+ 	width: 100%;
+ 	height: 1.94rem;
+ 	margin-top: 0.3rem;
+ 	background: url(../images/bt_bg.png)no-repeat;
+ 	background-size: 100% 100%;
+}
+#bottom #logo{
+   	width: 100%;
+   	height: 1rem;
+   	display: flex;
+}
+#bottom #logo .logo1{
+	height: 100%;
+	flex: 1;
+	position: relative;
+}
+
+#bottom #logo .logo1::after{
+	content: "";
+	width: 0.01rem;
+	height: 0.32rem;
+	position: absolute;
+	right: 0;
+	top: 0.5rem;
+	background: #fff;
+}
+#bottom #logo .logo1 img{
+	height: 0.32rem;
+	float: right;
+	margin-right: 0.14rem;
+	display: inline-block;
+  	margin-top: 0.5rem;
+}
+#bottom >p{
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.32rem;
+}
+#bottom p span{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 50%;
+	border: 0.02rem solid #fff;
+	text-align: center;
+	line-height: 0.18rem;
+}
+#bottom p a{
+	color: #fff;
+}
+#bottom #logo .info{
+	flex: 1;
+	margin-top: 0.5rem;
+	
+}
+#bottom #logo .info p{
+	font-size: 0.26rem;
+	margin-left: 0.16rem;
+	font-family: "STXingkai";
+	color: #fff;
+}
+#bottom #logo .info img{
+	display: block;
+	width: 1.5rem;
+	margin-top: -0.04rem;
+	margin-left: 0.2rem;
+}
